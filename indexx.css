@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+  /* color: green !important; */
+    color: rgb(59, 52, 52);
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+body{
+    background-image: linear-gradient(to top, #f19066, #f7f1e3 );
+}
+
+h1{
+    color: #4a69bd;
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+   
+}
+
+
+h2{ margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    width: 1140px;
+    margin: auto;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+
+}
+
+.sub{
+     background-color: #e7a588;
+     padding: 1px;
+     
+}
+
+
+.produtos{
+    width: 350px;
+    margin-left:10px;
+    border: 1px solid gray;
+    margin: 10px; /metade do padding pois junta a margem de dois elementos/
+    padding: 20px;
+    margin: auto;
+    background: #ffcccc;
+    border-radius: 15px;
+
+}
+    
+
+.preco{
+
+    font-weight: bold;
+    color:#f78fb3;
+    font-size: 1.3rem;
+}
+
+p, h3{
+    margin-top:25px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.6rem ;
+
+}
+
+
+.botao{
+    display: flex;
+    margin-top: 20px;
+    width: calc(100px-30px);
+    background-color:#ea8685;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 10px;
+
+    
+}
+
+#listadeprodutos{
+   display: flex;
+   margin: auto;
+   margin-left: 30px;
+   grid-column-gap: 10px;
+ }      
+
+img{
+ 
+    width: 40%;
+    margin: auto;
+    padding-top: auto;
+    margin-left: 110px;
+    margin-top:25px;
+    border-radius: 15px;
+
+
+}
+
+#rodape{
+    margin-top: 55px;
+}
+
+/*margin-top: 20px;
+    margin-left: 105px;
+    padding: 15px;
+    background-color:;
+    
+    justify-content: center;*/
