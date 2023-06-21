@@ -50,7 +50,7 @@ h2{ margin-left: 50px;
     width: 350px;
     margin-left:10px;
     border: 1px solid gray;
-    margin: 10px; /metade do padding pois junta a margem de dois elementos/
+    margin: 10px; /*metade do padding pois junta a margem de dois elementos*/
     padding: 20px;
     margin: auto;
     background: #ffcccc;
