@@ -8,53 +8,116 @@
 
 }
 
-body{
-    background-image: linear-gradient(to top, #f19066, #f7f1e3 );
+ body{
+     background-image: linear-gradient(to top, #f19066, #f7f1e3 ); 
+     /* background-image: url(''); */
+     /* background-size: 100%; */
+ }
+
+
+
+#menu ul{
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    margin-left: 250px;
+}
+
+
+
+#menu ul li{
+    padding-left: 40px;
+    margin-bottom: 50px;
+  
+}
+
+
+
+#menu ul li  {
+    color: white;
+    height: 24px;
+    margin-top: 15px;
+    padding-left: 40px;
+
+}
+
+
+a{
+    color: white;
+}
+
+
+#cabecalho{
+    background-color: #e7a588;
+    padding-top: 17px;
+  
+
 }
 
 h1{
     color: #4a69bd;
     font-family: 'Pacifico', cursive;
     font-size: 55px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-   
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
 }
 
+
+
+h4{
+    color: #4a69bd;
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    
+}
 
 h2{ margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 50px;
+
 }
 
-.titulo{
-    width: 1140px;
-    margin: auto;
-}
+
+
+/*.titulo*/
+    /*width: 1140px;*/
+    /*margin: auto;*/
+
+  
+/*}*/
 
 .container{
     width: 1140px;
     margin: auto;
-
 }
 
 .sub{
      background-color: #e7a588;
      padding: 1px;
-     
+     margin-top: 50px;
+     text-align: center;
+    font-family: cursive;
+
 }
+
+
 
 
 .produtos{
     width: 350px;
     margin-left:10px;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     margin: 10px; /*metade do padding pois junta a margem de dois elementos*/
     padding: 20px;
     margin: auto;
     background: #ffcccc;
-    border-radius: 15px;
+    border-radius: 30px;
+    -webkit-box-shadow: 23px -1px 67px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 23px -1px 67px -5px rgba(0,0,0,0.75);
+    box-shadow: 23px -1px 67px -5px rgba(0,0,0,0.75);
 
 }
     
@@ -68,11 +131,12 @@ h2{ margin-left: 50px;
 
 p, h3{
     margin-top:25px;
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 30px;
     font-size: 1.6rem ;
-
+    
 }
+
 
 
 .botao{
@@ -84,14 +148,20 @@ p, h3{
     justify-content: center;
     border-radius: 10px;
 
-    
+}
+
+.botao:hover {
+    color: #ffff;
+    text-decoration: none;
+    background-color:#e15f41;
+    transition: background-color 1s;
 }
 
 #listadeprodutos{
    display: flex;
    margin: auto;
-   margin-left: 30px;
-   grid-column-gap: 10px;
+   margin-left: 25px;
+   grid-column-gap: 10px; 
  }      
 
 img{
@@ -99,15 +169,104 @@ img{
     width: 40%;
     margin: auto;
     padding-top: auto;
-    margin-left: 110px;
+    margin-left: 97px;
     margin-top:25px;
     border-radius: 15px;
+
+}
+
+.imgi{
+ margin-left: 240px;
+}
+
+
+.text{
+    padding-top: 30px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 30px;
+    margin: 70px;
+    /*text-align: center;*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  
+}
+
+.quemsomos{
+    padding-left: 70px;
+    padding-bottom: 1%;
+    color: #e15f41;
+    font-family: 'Kanit', sans-serif;;
+
 
 
 }
 
+.texti{
+    padding-top: 30px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 30px;
+    margin: 70px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 10;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 5%;
+  
+    
+}
+
+label{
+    color: black;
+    
+}
+
+
+h4{
+
+   color: #4a69bd;
+    font-size: 2.9rem 
+}
+
 #rodape{
     margin-top: 55px;
+
+}
+
+
+/*rodape*/
+
+#rodape{
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color:#f19066;
+    color: #ffff;
+}
+
+#rodape h2{
+    font-family: 'merriweather', sans-serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffff;
+}
+
+#rodape li, #rodape p{
+    color: #ffff;
+    line-height:1,5em;
+}
+
+#rodape a{
+    color: #ffff;
+}
+
+#rodape button{
+    color: #ffff;
+    background-color:#e15f41;
 }
 
 /*margin-top: 20px;
